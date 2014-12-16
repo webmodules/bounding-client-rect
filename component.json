@@ -1,0 +1,27 @@
+{
+  "name": "bounding-client-rect",
+  "repo": "webmodules/bounding-client-rect",
+  "version": "1.0.0",
+  "description": "Cross-browser `getBoundingClientRect()` for all Node types",
+  "keywords": [
+    "browser",
+    "bounding",
+    "client",
+    "rect",
+    "getBoundingClientRect",
+    "TextRectangle",
+    "TextNode",
+    "Node",
+    "Range",
+    "HTMLElement"
+  ],
+  "main": "index.js",
+  "author": "Nathan Rajlich <nathan@tootallnate.net>",
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {
+    "webmodules/get-document": "0.1.1"
+  }
+}
