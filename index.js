@@ -26,6 +26,7 @@ function getBoundingClientRect (node) {
   var doc = getDocument(node);
 
   if (node.nodeType === 3 /* TEXT_NODE */) {
+    // see: http://stackoverflow.com/a/6966613/376773
     debug('creating a Range instance to measure TextNode %o', node);
     var range = doc.createRange();
     range.selectNodeContents(node);
