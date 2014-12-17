@@ -22,6 +22,7 @@
     "index.js"
   ],
   "dependencies": {
-    "webmodules/get-document": "0.1.1"
+    "webmodules/get-document": "0.1.1",
+    "visionmedia/debug": "*"
   }
 }
