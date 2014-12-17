@@ -1,4 +1,9 @@
 
+1.0.2 / 2014-12-17
+==================
+
+  * Adding visionmedia/debug dep to fix for component/duo (#1, @dominicbarnes)
+
 1.0.1 / 2014-12-16
 ==================
 

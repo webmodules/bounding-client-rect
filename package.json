@@ -1,6 +1,6 @@
 {
   "name": "bounding-client-rect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cross-browser `getBoundingClientRect()` for all Node types",
   "main": "index.js",
   "scripts": {
