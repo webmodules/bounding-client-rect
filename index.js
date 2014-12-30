@@ -4,7 +4,6 @@
  */
 
 var getDocument = require('get-document');
-var debug = require('debug')('bounding-client-rect');
 
 /**
  * Module exports.
@@ -27,7 +26,6 @@ function getBoundingClientRect (node) {
 
   if (node.nodeType === 3 /* TEXT_NODE */) {
     // see: http://stackoverflow.com/a/6966613/376773
-    debug('creating a Range instance to measure TextNode %o', node);
     var range = doc.createRange();
     range.selectNodeContents(node);
     node = range;
@@ -39,7 +37,6 @@ function getBoundingClientRect (node) {
     if (node.collapsed && rect.left === 0 && rect.top === 0) {
       // collapsed Range instances sometimes report all `0`s
       // see: http://stackoverflow.com/a/6847328/376773
-      debug('injecting temporary SPAN to measure collapsed Range');
       var span = doc.createElement('span');
 
       // Ensure span has dimensions and position by
