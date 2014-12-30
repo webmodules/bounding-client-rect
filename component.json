@@ -1,7 +1,7 @@
 {
   "name": "bounding-client-rect",
   "repo": "webmodules/bounding-client-rect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cross-browser `getBoundingClientRect()` for all Node types",
   "keywords": [
     "browser",
