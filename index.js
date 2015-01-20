@@ -34,8 +34,8 @@ function getBoundingClientRect (node) {
   if ('function' === typeof node.getBoundingClientRect) {
     rect = node.getBoundingClientRect();
 
-    if (node.collapsed && rect.left === 0 && rect.top === 0) {
-      // collapsed Range instances sometimes report all `0`s
+    if (node.startContainer && rect.left === 0 && rect.top === 0) {
+      // Range instances sometimes report all `0`s
       // see: http://stackoverflow.com/a/6847328/376773
       var span = doc.createElement('span');
 
