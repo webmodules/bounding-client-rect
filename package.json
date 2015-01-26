@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/webmodules/bounding-client-rect",
   "dependencies": {
-    "get-document": "~0.1.1"
+    "get-document": "1"
   },
   "devDependencies": {
     "zuul": "~1.16.0"
