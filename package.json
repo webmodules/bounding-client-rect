@@ -32,6 +32,6 @@
     "get-document": "1"
   },
   "devDependencies": {
-    "zuul": "~1.16.0"
+    "zuul": "2"
   }
 }
