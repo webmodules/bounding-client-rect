@@ -31,7 +31,7 @@ function getBoundingClientRect (node) {
     node = range;
   }
 
-  if ('function' === typeof node.getBoundingClientRect) {
+  if (node.getBoundingClientRect) {
     rect = node.getBoundingClientRect();
 
     if (node.startContainer && rect.left === 0 && rect.top === 0) {
